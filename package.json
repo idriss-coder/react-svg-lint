@@ -1,10 +1,13 @@
 {
-  "name": "react_svg_modifier",
+  "name": "react-svg-lint",
   "version": "1.0.0",
   "description": "Convert svg atributes to valid react jsx format",
   "main": "index.js",
+  "bin": {
+    "svg-lint": "./target/release/react_svg_modifier.exe"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "node postinstall.js"
   },
   "author": "IDRISSCODER",
   "license": "ISC"

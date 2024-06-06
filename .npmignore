@@ -1,0 +1,26 @@
+# Exclure les fichiers et dossiers de documentation
+/docs
+
+
+# Exclure les fichiers de configuration spécifiques
+/.env
+/config
+
+# Exclure les dossiers de tests
+/tests
+/__tests__
+
+# Exclure les fichiers de développement
+*.log
+*.ts
+*.map
+
+# Dossiers de développement
+/node_modules
+/dist
+/build
+/target
+
+# Fichiers et dossiers temporaires
+/temp
+/.tmp
