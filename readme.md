@@ -15,4 +15,24 @@ Les icônes SVG sont largement utilisées dans le développement web pour leur q
 Pour installer SVG Lint, vous avez besoin de Node.js et npm. Exécutez la commande suivante pour installer le plugin dans votre projet:
 
 ```bash
-npm install svg-lint
+npm install react-svg-lint
+```
+
+
+## Configuration
+
+Modifier votre package.json pour ajouter le shemin vers votre fichier d'icone
+```bash
+{
+  "scripts": {
+    "svg-lint": "svg-lint src/components/layout/admin/sidebar/_navIcons/NavIcons.tsx",
+  },
+```
+
+
+## Utilisation
+Vous pouvez tout simplement executer la commande suivant et cela linteras votre fichier
+
+```bash
+npm run svg-lint
+```
