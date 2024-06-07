@@ -38,5 +38,9 @@ npm run svg-lint
 ```
 
 ### Petite considération
-Pour le moment le plugin n'est disponible que pour windows, elle seras disponible pour les autres versions dans sa prochaine MAJ.
+Pour le moment le plugin n'est disponible que pour windows, elle seras disponible pour les autres plateformes dans sa prochaine MAJ.
 Et ne vous inquitez pas au cas ou vous envoyer votre code en prod sur une autre plateforme puisque elle n'est pas derstiner pour la prod
+
+
+## TODO:
+- Automatiser le build pour ios et linux
