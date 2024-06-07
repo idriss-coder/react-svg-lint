@@ -1,6 +1,6 @@
 {
   "name": "react-svg-lint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert svg atributes to valid react jsx format",
   "main": "index.js",
   "bin": {
@@ -9,6 +9,10 @@
   "scripts": {
     "postinstall": "node postinstall.js"
   },
-  "author": "IDRISSCODER",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idriss-coder/react-svg-lint"
+  },
+  "author": "idriss-coder",
   "license": "ISC"
 }

@@ -1,7 +1,17 @@
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
-// const src = path.join(__dirname, 'target', 'release', 'react_svg_modifier.svg');
-// const dest = path.join(__dirname, 'bin', 'react_svg_modifier.svg');
-//
-// fs.copyFileSync(src, dest);
+const platform = os.platform();
+
+const binMap = {
+    win32: 'react_svg_modifier-windows.exe',
+    darwin: 'react_svg_modifier-macos',
+    linux: 'react_svg_modifier-linux'
+};
+
+const src = path.join(__dirname, 'bin', binMap[platform]);
+const dest = path.join(__dirname, 'bin', 'react_svg_modifier');
+
+fs.copyFileSync(src, dest);
+fs.chmodSync(dest, 0o755);
