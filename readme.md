@@ -25,10 +25,9 @@ Modifier votre package.json pour ajouter le shemin vers votre fichier d'icone
 ```bash
 {
   "scripts": {
-    "svg-lint": "svg-lint src/components/layout/admin/sidebar/_navIcons/NavIcons.tsx",
+    "svg-lint": "svg-lint path/to/your-file.tsx",
   },
 ```
-
 
 ## Utilisation
 Vous pouvez tout simplement executer la commande suivant et cela linteras votre fichier
